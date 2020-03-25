@@ -1,0 +1,132 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  background-color: navajowhite;
+  font-family: "Roboto Condensed";
+}
+.phoneShape {
+  width: 350px;
+  height: 680px;
+  background-color: rgb(255, 249, 242);
+  padding: 10px;
+  border-radius: 30px;
+}
+.phoneBack {
+  width: 340px;
+  height: 670px;
+  background-color: rgb(250, 230, 208);
+  padding: 5px;
+  border-radius: 30px;
+}
+.topBox {
+  width: 130px;
+  height: 25px;
+  background-color: rgb(255, 249, 242);
+  border-radius: 50px;
+  margin-top: -15px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.topBar {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  color: rgba(240, 111, 6, 0.856);
+}
+.imgTitle {
+  color: rgb(209, 128, 108);
+  font-size: 17px;
+}
+.imgView {
+  color: rgb(103, 160, 77);
+  font-size: 15px;
+}
+.mainColumnOne {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+.imgBox {
+  position: relative;
+}
+.imgText1 {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+.imgText2 {
+  position: absolute;
+  top: 50px;
+  left: 230px;
+}
+.imgText3 {
+  position: absolute;
+  top: 165px;
+  left: 70px;
+}
+.imgText4 {
+  position: absolute;
+  top: 165px;
+  left: 230px;
+}
+.mainColumnTwo,
+.mainColumnThree {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.mainColumnTwo img,
+.mainColumnThree img {
+  width: 150px;
+  height: 100px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.midBar {
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(209, 128, 108);
+}
+.midContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.midText {
+  display: flex;
+  flex-direction: column;
+}
+.midText_one {
+  font-size: 16px;
+  color: rgb(216, 163, 149);
+}
+.midText_two {
+  font-size: 14px;
+  color: rgb(150, 148, 148);
+}
+.arrow {
+  color: rgb(103, 160, 77);
+}
+.bottomBar {
+  margin: 13px -5px;
+  width: 350px;
+  height: 60px;
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: rgba(241, 201, 201, 0.651);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  color: rgba(209, 128, 108, 0.795);
+}
